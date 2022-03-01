@@ -13,3 +13,15 @@ OPEN IMAGE USING OPENCV
 import cv2
 
 # open image from file using opencv
+
+===========================
+LIST FILES BY SIZE
+===========================
+
+import os
+
+# list all the files bigger than 4MB
+for file in os.listdir():
+    if os.path.getsize(file) > 4000000:
+        print(file)
+        
