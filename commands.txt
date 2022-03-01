@@ -1,0 +1,8 @@
+===========================
+CSV
+===========================
+import os
+
+# open csv file named "demo01.csv"
+# sort the data by the first column
+# print the first 5 lines
